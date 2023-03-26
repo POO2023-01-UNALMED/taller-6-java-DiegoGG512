@@ -89,6 +89,14 @@ public class Vehiculo {
     	return fabricante;
     }
     
+    public static int getCantidadVehiculos() {
+        return CantidadVehiculos;
+    }
+
+    public static void setCantidadVehiculos(int cantidadVehiculos) {
+        CantidadVehiculos = cantidadVehiculos;
+    }
+    
     public static ArrayList<Fabricante> getFabricantes() {
         return fabricantes;
     }
